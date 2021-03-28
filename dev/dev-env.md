@@ -15,6 +15,8 @@ ssh-copy-id -i id_rsa.pub user@remote-host-ip
 vim config
 ```
 
+Reference [Github Guide](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent) to add the key to macOS KeyChain Access App.
+
 ## Remote Host
 
 ### ssh
