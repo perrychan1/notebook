@@ -105,6 +105,7 @@ perl-ExtUtils-Embed
 ```
 
 ```sh
+syntax on
 set number
 
 set tabstop=2
