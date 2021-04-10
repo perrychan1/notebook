@@ -30,6 +30,8 @@ A: 因为内存过大导致垃圾回收时间过长，对事件循环影响过�
 根据该生代的内存特点，采用了 Scavenge 算法。其将内存空间分为两个等额空间 from-space 和 to-space。
 将 from-space 中存活的对象复制到 to-space 中，然后释放 from-space。然后互换两个空间的角色。
 
+![scavenge](../../images/scavenge.png)
+
 ### 老生代
 
 ## 内存优化手段
