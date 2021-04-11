@@ -1,9 +1,11 @@
 # Node.js Garbage Collection 垃圾回收
 
-## 程序内存特点
+## 什么是垃圾？
 
-- 频繁地新建变量，频繁地销毁变量；
-- 新生的变量中多数的存活时间短，老生的变量中多数存活时间长。
+没用的变量就是垃圾。无法从 `global` 全局变量开始通过引用找到的变量就是无用的变量（已经无法用到）。
+它可能是一个单一变量，也可能是一个变量孤岛。
+
+![变量孤岛](../../images/9ac555c0-9a7f-11eb-b473-bde4a851964d.png)
 
 ## 垃圾回收的成本
 
@@ -22,6 +24,11 @@ A: 因为内存过大导致垃圾回收时间过长，对事件循环影响过�
 - `heapTotal`: 堆中申请到的总内存空间；
 - `heapUsed`: 堆中已用空间；
 - `external`: V8 引擎内部的 C++ 对象所占的内存。
+
+## 程序内存特点
+
+- 频繁地新建变量，频繁地销毁变量；
+- 新生的变量中多数的存活时间短，老生的变量中多数存活时间长。
 
 ## 垃圾回收算法
 
@@ -44,12 +51,22 @@ Mark-Sweep 速度快，但产生了很多内存碎片。结合 Mark-Compact 可�
 
 ## 内存泄漏
 
-
+- 全局变量：它们持续占有内存。慎用，可 `someGlobalVar = null` 主动释放；
+- 闭包：可能导致函数外部作用域的变量持续存在；查看案例 [An interesting kind of JavaScript memory leak](https://blog.meteor.com/an-interesting-kind-of-javascript-memory-leak-8b47d2e7f156)；
+- 慎将内存作为缓存：考虑 redis 等外部缓存服务；
+- 模块：引进的模块会被 Node 缓存，且持续存在；
+- 事件重复监听：可能会在重试机制中出现（如网络重连等），导致有超多的重复事件监听；（默认地，超过 10 个监听器时 Node 会发出警告。）
+- 其他：
+  - 定时器：建议主动释放，否则不会被销毁；
+  - map, filter 等方法会产出新对象，占用更多内存。
 
 ## 内存优化手段
 
-- 明确无用的大内存，可通过将对象设置为 `null` 来主动释放；
+- 可知的无用的大内存，可通过将对象设置为 `null` 来主动释放。
 
 ## 参考
 
 - [Node.js内存管理和V8垃圾回收机制](https://juejin.cn/post/6844903878928891911)
+- [A tour of V8: Garbage Collection](http://jayconrod.com/posts/55/a-tour-of-v8-garbage-collection)
+- [Node.js Garbage Collection Explained](https://blog.risingstack.com/node-js-at-scale-node-js-garbage-collection/?utm_source=nodeweekly&utm_medium=email)
+- [Memory Management Reference](https://www.memorymanagement.org)
