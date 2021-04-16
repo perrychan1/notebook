@@ -122,4 +122,18 @@ const p3 = () => new Promise(resolve => resolve('Presto'));
 const p4 = () => 'Presto';
 ```
 
+## 进程退出
+
+大多数进程管理软件以及 docker 使用 `SIGTERM`。可监听 process 的该事件，执行清理动作。
+
+```js
+process.on('SIGTERM', () => {
+  server.close(() => {
+    console.log('server terminated');
+  });
+});
+```
+
+`nodemon` 重启进程时默认使用 `SIGUSR2`，可通过 `nodemon --signal SIGTERM index.js` 修改信号。[参考文档](https://github.com/remy/nodemon#gracefully-reloading-down-your-script)。
+
 - [How to exit Node.js process gracefully](https://nodejs.dev/learn/how-to-exit-from-a-nodejs-program)
