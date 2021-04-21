@@ -50,6 +50,9 @@ vim .zshrc
 
 plugins=(zsh-autosuggestions zsh-syntax-highlighting nvm ssh-agent git gitignore)
 
+# set default editor
+export EDITOR='vim'
+
 # custom alias
 ```
 
