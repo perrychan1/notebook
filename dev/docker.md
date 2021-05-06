@@ -10,7 +10,7 @@ docker kill -s HUP nginx-container-name
 
 ```sh
 # 解决终端无法键入中文的问题
-docker run --name mysql -d \
+docker run --name mysql:5.7 -d \
 -e LANG=C.UTF-8 \
 -e MYSQL_ROOT_PASSWORD=secret \
 -v mysql:/var/lib/mysql \
