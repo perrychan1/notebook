@@ -8,6 +8,9 @@ mv path/to/id_rsa.pub ./
 
 chmod 400 id_rsa
 
+# add your SSH private key to the ssh-agent and store your passphrase in the keychain
+ssh-add -K ~/.ssh/id_rsa
+
 # copy .pub file to remote host
 # -p 36000
 ssh-copy-id -i id_rsa.pub user@remote-host-ip
