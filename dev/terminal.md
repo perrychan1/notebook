@@ -4,6 +4,8 @@
 | :-----: | ----------- |
 | `ctl + a` | go ahead of line |
 | `ctl + e` | go to end of line |
+| `ctl + u` | delete to ahead of line |
+| `ctl + k` | delete to end of line |
 | `ctl + w` | delete a word |
 | `ctl + h` | delete a char |
 | `ctl + b` | go back |
