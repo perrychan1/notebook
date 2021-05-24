@@ -58,6 +58,7 @@
 
 ## Study
 
-* [Article](study/article.md)
+* [Articles](study/articles.md)
 * [Learning](study/learning.md)
+* [Reading Notes](study/reading-notes.md)
 
