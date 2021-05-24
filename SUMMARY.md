@@ -64,5 +64,6 @@
   * [如何赢得朋友并影响他人](study/reading-notes/ru-he-ying-de-peng-you-bing-ying-xiang-ta-ren.md)
   * [学以致用](study/reading-notes/xue-yi-zhi-yong.md)
   * [Good Design](study/reading-notes/good-design.md)
+  * [How to Create Products Customers Love](study/reading-notes/how-to-create-products-customers-love.md)
 * [More](study/more.md)
 
