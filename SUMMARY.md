@@ -2,7 +2,7 @@
 
 * [README](README.md)
 * [Develop](dev/README.md)
-  * [Visual Studio Code](dev/vs-code.md)
+  * [Visual Studio Code](dev/visual-studio-code.md)
   * [Developer Roadmap](dev/roadmap.md)
   * [http](dev/http.md)
   * [node.js](dev/node.js/README.md)
