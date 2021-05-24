@@ -1,6 +1,6 @@
 # Table of contents
 
-* [notebook](README.md)
+* [README](README.md)
 * [life](life/README.md)
   * [favorites](life/favorites.md)
   * [learning-and-working](life/learning-and-working.md)
