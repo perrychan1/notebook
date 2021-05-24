@@ -10,3 +10,5 @@ Welcome to the Perry Chan's Notebook!
 Let me test first time.
 
 ![](.gitbook/assets/test.drawio.svg)
+
+![](.gitbook/assets/test2.drawio.svg)
