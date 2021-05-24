@@ -1,5 +1,6 @@
-## Setting
+# Setting
 
-```js
+```javascript
 app.proxy = true
 ```
+

@@ -1,6 +1,6 @@
 # tar
 
-```sh
+```bash
 # .tag.gz
 tar -xvf myfile.tag.gz
 
@@ -19,5 +19,5 @@ zip archive.zip file.js
 zip -r archive.zip directory
 
 unzip myfile.zip
-
 ```
+

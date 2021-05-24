@@ -1,18 +1,20 @@
+# sql
+
 入门教程 [w3schools](https://www.w3schools.com/sql/default.asp)
 
-- [Query](#query)
-  - [Condition](#condition)
-  - [Order](#order)
-  - [Limit](#limit)
-  - [Group](#group)
-  - [Join](#join)
-- [Insert, Update and Delete](#insert,%20update%20and%20delete)
-- [Functions](#functions)
-- [Stored Procedures](#stored%20procedures)
-- [Advanced](#advanced)
-- [Admin](#admin)
-- [Help](#help)
-- [Best Practice](#best%20practice)
+* [Query](sql.md#query)
+  * [Condition](sql.md#condition)
+  * [Order](sql.md#order)
+  * [Limit](sql.md#limit)
+  * [Group](sql.md#group)
+  * [Join](sql.md#join)
+* [Insert, Update and Delete](sql.md#insert,%20update%20and%20delete)
+* [Functions](sql.md#functions)
+* [Stored Procedures](sql.md#stored%20procedures)
+* [Advanced](sql.md#advanced)
+* [Admin](sql.md#admin)
+* [Help](sql.md#help)
+* [Best Practice](sql.md#best%20practice)
 
 ## Query
 
@@ -117,10 +119,7 @@ HAVING customerCount > 5
 
 ### Join
 
-![inner-join](https://www.w3schools.com/sql/img_innerjoin.gif)
-![left-join](https://www.w3schools.com/sql/img_leftjoin.gif)
-![right-join](https://www.w3schools.com/sql/img_rightjoin.gif)
-![full-outer-join](https://www.w3schools.com/sql/img_fulljoin.gif)
+![inner-join](https://www.w3schools.com/sql/img_innerjoin.gif) ![left-join](https://www.w3schools.com/sql/img_leftjoin.gif) ![right-join](https://www.w3schools.com/sql/img_rightjoin.gif) ![full-outer-join](https://www.w3schools.com/sql/img_fulljoin.gif)
 
 ```sql
 -- INNER JOIN
@@ -341,6 +340,7 @@ help
 
 ## Best Practice
 
-- Uppercase KEYWORD for easy read;
-- Avoid using `*` for performence;
-- Use line break reasonably.
+* Uppercase KEYWORD for easy read;
+* Avoid using `*` for performence;
+* Use line break reasonably.
+

@@ -1,7 +1,9 @@
-- Homebrew 将被安装到 `/usr/local/`
-- Formula 将把包安装到 `/usr/local/Cellar/`， 并软链接到 `/usr/local/bin`
+# homebrew
 
-```sh
+* Homebrew 将被安装到 `/usr/local/`
+* Formula 将把包安装到 `/usr/local/Cellar/`， 并软链接到 `/usr/local/bin`
+
+```bash
 brew help
 
 brew search [TEXT|/REGEX/]
@@ -18,3 +20,4 @@ brew uninstall FORMULA...
 brew list [FORMULA...]
 brew cask list [FORMULA...]
 ```
+

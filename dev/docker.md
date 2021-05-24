@@ -1,6 +1,8 @@
+# docker
+
 ## nginx
 
-```sh
+```bash
 # send `HUP` signal to container
 # nginx reload config file
 docker kill -s HUP nginx-container-name
@@ -8,7 +10,7 @@ docker kill -s HUP nginx-container-name
 
 ## MySQL
 
-```sh
+```bash
 # 解决终端无法键入中文的问题
 docker run --name mysql -d \
 -e LANG=C.UTF-8 \
@@ -26,3 +28,4 @@ mysql:5.7 \
 ## Signal
 
 Docker 向 Container 发送 `SIGTERM` 以终止它。
+

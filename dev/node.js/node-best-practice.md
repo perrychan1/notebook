@@ -4,7 +4,7 @@
 
 回调函数是通过**实参**传入的。
 
-```js
+```javascript
 function sayHi() {
   console.log('Hi')
 }
@@ -40,7 +40,7 @@ Mongoose 利用此机制，在第一次调用时设置 Mongo 链接。
 
 这样可以获取更好的并发效果，对比以下代码
 
-```js
+```javascript
 // before
 async function sayName() {
   const [ name, type ] = await Promise.all([
@@ -76,11 +76,11 @@ async function sayName() {
 }
 ```
 
-2. 避免使用 return await
+1. 避免使用 return await
 
-因为 async 函数中，会将 `reture value` 中的 value 打包成 promise 后返回，而 `await func()` 则是将 func() 的结果解包。
+因为 async 函数中，会将 `reture value` 中的 value 打包成 promise 后返回，而 `await func()` 则是将 func\(\) 的结果解包。
 
-```js
+```javascript
 // before
 async () => {
   return await func();
@@ -92,11 +92,11 @@ async () => {
 }
 ```
 
-3. 留意 async 函数的开销
+1. 留意 async 函数的开销
 
 对于简单的异步操作，或者无需异步时，建议不使用 async。
 
-```js
+```javascript
 import { promises as fs } from 'fs';
 
 // 这是一个效率不高的原生 readFile 的封装器。
@@ -111,7 +111,7 @@ function readFile(filename) {
 }
 ```
 
-```js
+```javascript
 // All of these are semantically equivalent.
 const p1 = async () => 'Presto';
 const p2 = () => Promise.resolve('Presto');
@@ -126,7 +126,7 @@ const p4 = () => 'Presto';
 
 大多数进程管理软件以及 docker 使用 `SIGTERM`。可监听 process 的该事件，执行清理动作。
 
-```js
+```javascript
 process.on('SIGTERM', () => {
   server.close(() => {
     console.log('server terminated');
@@ -136,4 +136,5 @@ process.on('SIGTERM', () => {
 
 `nodemon` 重启进程时默认使用 `SIGUSR2`，可通过 `nodemon --signal SIGTERM index.js` 修改信号。[参考文档](https://github.com/remy/nodemon#gracefully-reloading-down-your-script)。
 
-- [How to exit Node.js process gracefully](https://nodejs.dev/learn/how-to-exit-from-a-nodejs-program)
+* [How to exit Node.js process gracefully](https://nodejs.dev/learn/how-to-exit-from-a-nodejs-program)
+

@@ -1,4 +1,6 @@
-```sh
+# mongo
+
+```bash
 # connection
 mongo -u "myUserAdmin" -p \
 --authenticationDatabase "admin" \
@@ -35,7 +37,7 @@ docker exec some-mongo sh -c 'exec mongodump -d <database_name> --archive' > /so
 
 ### Connection
 
-```js
+```javascript
 const mongoose = require('mongoose')
 
 const MONGODB_URL = process.env.MONGODB_URL || 'mongodb://127.0.0.1/test'
@@ -52,7 +54,7 @@ mongoose.connection.once('open', () => {
 
 ### Schema defined and model creation
 
-```js
+```javascript
 let schema = new mongoose.Schema({
 
 })
@@ -70,7 +72,7 @@ let Model = mongoose.model('Model', schema)
 
 ### Insert
 
-```js
+```javascript
 let doc = new Model({
 
   // key-values
@@ -86,7 +88,7 @@ doc.save((err, doc) => {
 
 ### Find
 
-```js
+```javascript
 Model.find({})
 ```
 
@@ -95,3 +97,4 @@ Model.find({})
 ### Data Type
 
 Schema, use array of `object`, but array of `string`.
+

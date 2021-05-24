@@ -1,3 +1,5 @@
+# jquery
+
 ## `$( document ).ready()`
 
 ```javascript
@@ -23,7 +25,6 @@ $(window).on('load', function() {
 })
 ```
 
-
 ## Attributes
 
 ```javascript
@@ -39,14 +40,12 @@ $().attr({
 const v0 = $().attr('key');
 ```
 
-
 ## Selecting Elements
 
 选择器应：
 
-- 尽可能短；
-- 尽可能精准。
-
+* 尽可能短；
+* 尽可能精准。
 
 ```javascript
 $('#myId'); // ID: 要求在页面中唯一。
@@ -96,9 +95,7 @@ $( "form :selected" );
 // :button
 // :image
 // :file
-
 ```
-
 
 ## Working with Selections
 
@@ -125,21 +122,19 @@ $( "#content" )
         .html( "new text for the first h3!" );
 ```
 
-
 ## Manipulating Elements
 
 Getting and Setting Information About Elements
 
-- `.html()` – Get or set the HTML contents.
-- `.text()` – Get or set the text contents; HTML will be stripped.
-- `.attr()` – Get or set the value of the provided attribute.
-- `.width()` – Get or set the width in pixels of the first element in the selection as an integer.
-- `.height()` – Get or set the height in pixels of the first element in the selection as an integer.
-- `.position()` – Get an object with position information for the first element in the selection, relative to its first positioned ancestor. This is a getter only.
-- `.val()` – Get or set the value of form elements.
-
+* `.html()` – Get or set the HTML contents.
+* `.text()` – Get or set the text contents; HTML will be stripped.
+* `.attr()` – Get or set the value of the provided attribute.
+* `.width()` – Get or set the width in pixels of the first element in the selection as an integer.
+* `.height()` – Get or set the height in pixels of the first element in the selection as an integer.
+* `.position()` – Get an object with position information for the first element in the selection, relative to its first positioned ancestor. This is a getter only.
+* `.val()` – Get or set the value of form elements.
 
 Moving, Copying, and Removing Elements
 
+[https://learn.jquery.com/using-jquery-core/manipulating-elements/](https://learn.jquery.com/using-jquery-core/manipulating-elements/)
 
-https://learn.jquery.com/using-jquery-core/manipulating-elements/

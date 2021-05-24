@@ -2,18 +2,18 @@
 
 原子性：任一命令均是原子性的。
 
-- [写在前面](#写在前面)
-- [通用命令](#通用命令)
-- [数据类型](#数据类型)
-  - [String](#string)
-  - [List](#list)
-  - [Set](#set)
-  - [Ordered Set](#ordered-set)
-  - [Hash](#hash)
+* [写在前面](redis.md#写在前面)
+* [通用命令](redis.md#通用命令)
+* [数据类型](redis.md#数据类型)
+  * [String](redis.md#string)
+  * [List](redis.md#list)
+  * [Set](redis.md#set)
+  * [Ordered Set](redis.md#ordered-set)
+  * [Hash](redis.md#hash)
 
 ## 通用命令
 
-```sh
+```bash
 # exists
 # @return {number} 存在，1；否则，0
 exists key
@@ -43,7 +43,7 @@ persist key
 
 常用命令
 
-```sh
+```bash
 # 存储
 # @return OK
 set key 'value'
@@ -69,7 +69,7 @@ decrby number 10 # 99
 
 常用命令
 
-```sh
+```bash
 # push
 # @return 列表长度
 rpush key 'v1' 'v2'
@@ -88,8 +88,8 @@ llen key
 
 特点
 
-- 高效地进行头/尾部操作
-- 一端生产，另一端消费
+* 高效地进行头/尾部操作
+* 一端生产，另一端消费
 
 ### Set
 
@@ -97,7 +97,7 @@ llen key
 
 常用命令
 
-```sh
+```bash
 # add
 # @return 值已存在，返回 0；否则，返回 1
 sadd key 'v0' 'v1'
@@ -124,9 +124,9 @@ sunion key key1
 
 特点
 
-- 无序
-- 用来做标记的池塘
-- 判断是否存在
+* 无序
+* 用来做标记的池塘
+* 判断是否存在
 
 ### Sorted Set
 
@@ -134,7 +134,7 @@ sunion key key1
 
 常用命令
 
-```sh
+```bash
 # add
 zadd key 0 'v0'
 
@@ -144,8 +144,8 @@ zrange 0 -1
 
 特点
 
-- 有序
-- 方便读取最高或最低排行
+* 有序
+* 方便读取最高或最低排行
 
 ### Hashes
 
@@ -153,7 +153,7 @@ field: value 的映射表。
 
 常用命令
 
-```sh
+```bash
 # set
 hset obj f0 'v0' f1 '1'
 
@@ -172,4 +172,5 @@ hincrby obj f1 10 # 11
 
 特点：
 
-- key: value 对象
+* key: value 对象
+

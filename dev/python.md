@@ -1,10 +1,12 @@
+# python
+
 ## 数据类型
 
 ### int, float
 
 ### str
 
-```py
+```python
 foo = 'hello'
 bar = "world"
 
@@ -18,7 +20,7 @@ world
 
 内存中用 `unicode` 编码；为了节省空间，写入磁盘或输出到网络时，使用 `utf-8` 编码。
 
-```py
+```python
 # 编解码
 'abc'.encode('utf-8') # => b'abc'
 b'abc'.decode('utf-8') # => 'abc'
@@ -26,7 +28,7 @@ b'abc'.decode('utf-8') # => 'abc'
 
 #### 格式化
 
-```py
+```python
 'Hello, %s!' % 'World' # => 'Hello, World!'
 # 多个占位符时，用括号包裹
 'Hello, %s and %s!' % ('You', 'Me') # => 'Hello, You and Me!'
@@ -40,7 +42,7 @@ b'abc'.decode('utf-8') # => 'abc'
 
 ### bool
 
-```py
+```python
 True or False
 True and False
 not True
@@ -48,7 +50,7 @@ not True
 
 ### None
 
-```py
+```python
 # 函数无 'return' 或 'return 空' 时，均返回 None
 None
 ```
@@ -57,7 +59,7 @@ None
 
 ### list 列表
 
-```py
+```python
 # define
 foo = [1, 'world']
 
@@ -84,7 +86,7 @@ len(foo) # => 3
 
 不可变的 list。
 
-```py
+```python
 # define
 foo = ('cassie', 'perry', 'someone')
 # empty tuple
@@ -98,7 +100,7 @@ foo[0] # => 'cassie'
 
 ### dict 字典
 
-```py
+```python
 # define
 user = {
   name: 'perry',
@@ -124,7 +126,7 @@ user.pop('birth') # => 2020
 
 仅有 Key 且唯一的 dict。
 
-```py
+```python
 # define
 foo = set([1, 1, 2]) # => {1, 2}
 
@@ -137,7 +139,7 @@ foo.delete(3)
 
 ## 函数
 
-```py
+```python
 def doSomething(param1, param2):
   # 数据类型检查
   if not isinstance(param1, (int, float)):
@@ -154,7 +156,8 @@ foo, bar = doSomething(1, 2)
 
 ## venv
 
-```sh
+```bash
 python3 -m venv venv
 source ./venv/bin/activate
 ```
+

@@ -1,9 +1,11 @@
+# vim
+
 教程
 
-- `> vimtutor`
-- [Basic vi Commands](https://www.cs.colostate.edu/helpdocs/vi.html)
+* `> vimtutor`
+* [Basic vi Commands](https://www.cs.colostate.edu/helpdocs/vi.html)
 
-```
+```text
 i: insert 在光标前插入
 a: append 在光标后插入
 A: 在本行后插入
@@ -85,7 +87,7 @@ CTRL-D 和 <TAB> 可以进行"命令行"补全
 CTRL-W CTRL-W  可以使您在窗口之间跳转
 ```
 
-```
+```text
 b: 向后移动光标一个单词
 I: 在本行最前面开始输入
 C: 删除本行光标后的内容，并开始插入
@@ -97,7 +99,8 @@ yy: 复制本行
 
 ## .vimrc
 
-- vim-plug
-- vim-javascript
-- nerdtree
-- syntastic: install eslint globally
+* vim-plug
+* vim-javascript
+* nerdtree
+* syntastic: install eslint globally
+

@@ -1,5 +1,6 @@
 # tail
 
-```sh
+```bash
 tail -200f /path/to/file
 ```
+

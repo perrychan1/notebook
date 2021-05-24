@@ -1,6 +1,8 @@
+# dev-env
+
 ## Local Host
 
-```sh
+```bash
 cd ~/.ssh
 
 mv path/to/id_rsa ./
@@ -24,7 +26,7 @@ Reference [Github Guide](https://docs.github.com/en/github/authenticating-to-git
 
 ### ssh
 
-```sh
+```bash
 cd ~/.ssh
 
 mv path/to/id_rsa ./
@@ -36,7 +38,7 @@ vim config
 
 ### zsh
 
-```sh
+```bash
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -48,7 +50,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 vim .zshrc
 ```
 
-```sh
+```bash
 # .zshrc
 
 plugins=(zsh-autosuggestions zsh-syntax-highlighting nvm ssh-agent git gitignore)
@@ -63,10 +65,10 @@ export EDITOR='vim'
 
 Update git
 
-- [How To Install Git on CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-centos-7)
-- [yum install curl-devel](https://stackoverflow.com/questions/8329485/unable-to-find-remote-helper-for-https-during-git-clone)
+* [How To Install Git on CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-centos-7)
+* [yum install curl-devel](https://stackoverflow.com/questions/8329485/unable-to-find-remote-helper-for-https-during-git-clone)
 
-```sh
+```bash
 git config --global user.name '[name]'
 git config --global user.email '[email]'
 git config --global color.ui auto
@@ -76,9 +78,9 @@ git config --global color.ui auto
 
 Update vim
 
-- [How To Install Vim 8.2 On CentOS 7](https://phoenixnap.com/kb/how-to-install-vim-centos-7)
+* [How To Install Vim 8.2 On CentOS 7](https://phoenixnap.com/kb/how-to-install-vim-centos-7)
 
-```sh
+```bash
 # YouCompleteMe require >= python2.7 and >=python3.6
 
 # add python3
@@ -105,12 +107,12 @@ perl-ExtUtils-Embed
 --enable-luainterp
 ```
 
-```sh
+```bash
 # .vimrc
 :r $VIMRUNTIME/vimrc_example.vim
 ```
 
-```sh
+```bash
 syntax on
 set number
 
@@ -122,7 +124,7 @@ set expandtab
 
 ### node
 
-```sh
+```bash
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
 
@@ -136,7 +138,7 @@ npm config set registry https://registry.npm.taobao.org
 
 ### docker
 
-```sh
+```bash
 # Error response from daemon: could not find an available,
 # non-overlapping IPv4 address pool among the defaults to
 # assign to the network
@@ -151,3 +153,4 @@ docker network create 'localhost' --subnet='172.17.0.0/16'
 sudo curl -L --fail https://github.com/docker/compose/releases/download/1.27.4/run.sh -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 ```
+
