@@ -1,8 +1,8 @@
 # README
 
-👋Welcome!
+Welcome!
 
-This is a notebook about my [software development]() and [life experience]().
+This is a notebook about my software development and life experience.
 
 
 
