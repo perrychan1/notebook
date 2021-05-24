@@ -57,7 +57,7 @@ N: 上一个
 `#,#s/old/new/g`: 替换从 # 到 # 行
 `:%s/old/new/g`: 替换整个文件
 `:%s/old/new/gc`: 替换整个文件，每个替换前给予确认
-
+`:[start_line_no],[end_line_no]d`: 删除指定的行
 CTRL-O 带您跳转回较旧的位置，CTRL-I 则带您到较新的位置
 
 `:!ls`: 执行 shell 命令
