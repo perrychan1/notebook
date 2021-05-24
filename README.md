@@ -1,14 +1,8 @@
 # README
 
-Welcome!
+👋Welcome!
 
-### [Develop](dev/)
-
-软件开发笔记。
-
-### [Life](life/)
-
-生活笔记。
+This is a notebook about my [software development](code/) and [life experience](life-1/life.md).
 
 
 
