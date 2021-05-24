@@ -34,17 +34,17 @@ A: 因为内存过大导致垃圾回收时间过长，对事件循环影响过�
 
 根据该生代的内存特点，采用了 Scavenge 算法。其将内存空间分为两个等额空间 from-space 和 to-space。 将 from-space 中存活的对象复制到 to-space 中，然后释放 from-space。然后互换两个空间的角色。
 
-![scavenge](../../.gitbook/assets/scavenge.png)
+![scavenge](../../.gitbook/assets/ad2e8e00-bc5a-11eb-b092-eb7959c5b515.png)
 
 ### 老生代
 
 根据该生代的内存特点，采用了 Mark-Sweep \(标记-清除\) 结合 Mark-Compact \(标记-整理\) 算法。
 
-![mark-sweep](../../.gitbook/assets/mark-sweep.png)
+![mark-sweep](../../.gitbook/assets/8fbf2780-bc5a-11eb-b753-030019b45a1b.png)
 
 Mark-Sweep 速度快，但产生了很多内存碎片。结合 Mark-Compact 可让内存空间紧凑。
 
-![mark-compact](../../.gitbook/assets/mark-compact.png)
+![mark-compact](../../.gitbook/assets/740e60f0-bc5a-11eb-a163-2386fdae6276.png)
 
 ## 内存泄漏
 
@@ -67,4 +67,3 @@ Mark-Sweep 速度快，但产生了很多内存碎片。结合 Mark-Compact 可�
 * [A tour of V8: Garbage Collection](http://jayconrod.com/posts/55/a-tour-of-v8-garbage-collection)
 * [Node.js Garbage Collection Explained](https://blog.risingstack.com/node-js-at-scale-node-js-garbage-collection/?utm_source=nodeweekly&utm_medium=email)
 * [Memory Management Reference](https://www.memorymanagement.org)
-
