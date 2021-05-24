@@ -1,7 +1,7 @@
 # Table of contents
 
 * [README](README.md)
-* [life](life/README.md)
+* [Life](life/README.md)
   * [favorites](life/favorites.md)
   * [learning-and-working](life/learning-and-working.md)
   * [商品](life/shopping.md)
@@ -9,7 +9,7 @@
   * [更好的主食](life/food.md)
   * [Health](life/health.md)
   * [tools](life/tools.md)
-* [dev](dev/README.md)
+* [Develop](dev/README.md)
   * [Visual Studio Code](dev/vs-code.md)
   * [Developer Roadmap](dev/roadmap.md)
   * [http](dev/http.md)

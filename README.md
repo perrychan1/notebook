@@ -1,4 +1,4 @@
-# README
+# Perry's Notebook
 
 Welcome to the Perry Chan's Notebook!
 
