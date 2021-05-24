@@ -1,8 +1,10 @@
 # Visual Studio Code
 
-## 常见问题
+### Q&A
 
-> Remote-SSH 无法连接远程机器？
+#### 插件 Remote - SSH 连接远程机器失败？
 
-`rm -rf .vscode-server`，然后重试。参考 [Can't connect to remote servers via Remote SSH \#3856](https://github.com/microsoft/vscode-remote-release/issues/3856#issuecomment-713347560)。
+尝试[此方案](https://github.com/microsoft/vscode-remote-release/issues/3856#issuecomment-713347560)。
+
+
 
