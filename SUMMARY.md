@@ -58,7 +58,11 @@
 
 ## Study
 
-* [Articles](study/articles.md)
-* [Learning](study/learning.md)
-* [Reading Notes](study/reading-notes.md)
+* [Basic](study/basic.md)
+* [Reading Notes](study/reading-notes/README.md)
+  * [禅与摩托车维修的艺术](study/reading-notes/chan-yu-mo-tuo-che-wei-xiu-de-yi-shu.md)
+  * [如何赢得朋友并影响他人](study/reading-notes/ru-he-ying-de-peng-you-bing-ying-xiang-ta-ren.md)
+  * [学以致用](study/reading-notes/xue-yi-zhi-yong.md)
+  * [Good Design](study/reading-notes/good-design.md)
+* [More](study/more.md)
 
