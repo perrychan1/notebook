@@ -1,14 +1,6 @@
 # Table of contents
 
 * [README](README.md)
-* [Life](life/README.md)
-  * [favorites](life/favorites.md)
-  * [learning-and-working](life/learning-and-working.md)
-  * [商品](life/shopping.md)
-  * [靳珂刺秦王](life/story-and-inspiring.md)
-  * [更好的主食](life/food.md)
-  * [Health](life/health.md)
-  * [tools](life/tools.md)
 * [Develop](dev/README.md)
   * [Visual Studio Code](dev/vs-code.md)
   * [Developer Roadmap](dev/roadmap.md)
@@ -50,4 +42,12 @@
   * [mysql](dev/mysql.md)
   * [linux-and-shell](dev/linux-and-shell.md)
   * [curl](dev/curl.md)
+* [Life](life/README.md)
+  * [favorites](life/favorites.md)
+  * [learning-and-working](life/learning-and-working.md)
+  * [商品](life/shopping.md)
+  * [靳珂刺秦王](life/story-and-inspiring.md)
+  * [更好的主食](life/food.md)
+  * [Health](life/health.md)
+  * [tools](life/tools.md)
 
