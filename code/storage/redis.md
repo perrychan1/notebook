@@ -1,15 +1,6 @@
 # Redis
 
-原子性：任一命令均是原子性的。
-
-* [写在前面](redis.md#写在前面)
-* [通用命令](redis.md#通用命令)
-* [数据类型](redis.md#数据类型)
-  * [String](redis.md#string)
-  * [List](redis.md#list)
-  * [Set](redis.md#set)
-  * [Ordered Set](redis.md#ordered-set)
-  * [Hash](redis.md#hash)
+⭐任一命令均是原子性的。
 
 ## 通用命令
 

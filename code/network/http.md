@@ -20,6 +20,7 @@
   * `401` Unauthorized
   * `403` Forbidden
   * `404` Not Found
+  * `409`: Conflict
 * 5xx Server Error
   * `500` International Server Error
 
@@ -27,8 +28,8 @@
 
 * `GET`
 * `POST`
-* `PUT`: 完全更改
-* `PATCH`: 部分更改
+* `PUT`: 完全更新
+* `PATCH`: 部分更新
 * `DELETE`
 * `HEAD`
 
@@ -76,7 +77,7 @@ ETag 是后台用来标记文件版本的值。无固定生成规则，只要做
 
 ### Body
 
-## How Https Works
+## How HTTPS Works
 
 学习 HTTPS、密钥、握手、SSL/TLS 以及证书授权，[查看详情](https://howhttps.works)。
 

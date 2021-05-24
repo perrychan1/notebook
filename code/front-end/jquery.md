@@ -1,6 +1,6 @@
-# jquery
+# jQuery
 
-## `$( document ).ready()`
+## `$(document).ready()`
 
 ```javascript
 // 当 DOM 加载完成时，运行代码

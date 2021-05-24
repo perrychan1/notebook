@@ -2,20 +2,6 @@
 
 入门教程 [w3schools](https://www.w3schools.com/sql/default.asp)
 
-* [Query](sql.md#query)
-  * [Condition](sql.md#condition)
-  * [Order](sql.md#order)
-  * [Limit](sql.md#limit)
-  * [Group](sql.md#group)
-  * [Join](sql.md#join)
-* [Insert, Update and Delete](sql.md#insert,%20update%20and%20delete)
-* [Functions](sql.md#functions)
-* [Stored Procedures](sql.md#stored%20procedures)
-* [Advanced](sql.md#advanced)
-* [Admin](sql.md#admin)
-* [Help](sql.md#help)
-* [Best Practice](sql.md#best%20practice)
-
 ## Query
 
 ```sql
