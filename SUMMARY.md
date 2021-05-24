@@ -65,5 +65,8 @@
   * [学以致用](study/reading-notes/xue-yi-zhi-yong.md)
   * [Good Design](study/reading-notes/good-design.md)
   * [How to Create Products Customers Love](study/reading-notes/how-to-create-products-customers-love.md)
+  * [Netflix 企业文化](study/reading-notes/netflix-qi-ye-wen-hua.md)
+  * [成长的底层逻辑：去“自我中心”](study/reading-notes/cheng-chang-de-di-ceng-luo-ji-qu-zi-wo-zhong-xin.md)
+  * [决策的艺术](study/reading-notes/jue-ce-de-yi-shu.md)
 * [More](study/more.md)
 
