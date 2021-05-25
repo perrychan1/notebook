@@ -69,5 +69,6 @@
   * [成长的底层逻辑：去“自我中心”](study/reading-notes/cheng-chang-de-di-ceng-luo-ji-qu-zi-wo-zhong-xin.md)
   * [决策的艺术](study/reading-notes/jue-ce-de-yi-shu.md)
   * [Maslow's hierarchy of needs](study/reading-notes/maslows-hierarchy-of-needs.md)
+  * [How to Learn Any Language](study/reading-notes/how-to-learn-any-language.md)
 * [More](study/more.md)
 
