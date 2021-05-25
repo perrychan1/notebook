@@ -46,7 +46,7 @@
   * [x] vim
   * [x] cat
   * [x] grep
-  * [ ] ps
+  * [x] ps
   * [x] tail
 * [x] Editor
   * [x] Visual Studio Code
