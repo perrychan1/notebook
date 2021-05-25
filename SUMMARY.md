@@ -53,8 +53,19 @@
 
 * [Food](life/food/README.md)
   * [主食](life/food/staple-food.md)
-* [Health](life/health.md)
-* [Shopping](life/shopping.md)
+* [Health](life/health/README.md)
+  * [健身计划](life/health/jian-shen-ji-hua.md)
+  * [提高生活品质的方法](life/health/ti-gao-sheng-huo-pin-zhi-de-fang-fa.md)
+* [House](life/house/README.md)
+  * [租房](life/house/zu-fang.md)
+  * [购房](life/house/gou-fang.md)
+* [Shopping](life/shopping/README.md)
+  * [枕头](life/shopping/zhen-tou.md)
+  * [床垫](life/shopping/chuang-dian.md)
+  * [旅行箱](life/shopping/lv-hang-xiang.md)
+  * [监控摄像头](life/shopping/jian-kong-she-xiang-tou.md)
+  * [台阶](life/shopping/tai-jie.md)
+  * [花洒](life/shopping/hua-sa.md)
 
 ## Study
 
