@@ -51,6 +51,8 @@
 
 ## Life
 
+* [Basic](life/basic/README.md)
+  * [容量常识](life/basic/rong-liang-chang-shi.md)
 * [Food](life/food/README.md)
   * [主食](life/food/staple-food.md)
 * [Health](life/health/README.md)
