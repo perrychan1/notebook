@@ -1,8 +1,12 @@
 # OpenAPI \(Swagger\)
 
+## 文档
+
+[Swagger Specification](https://swagger.io/docs/specification/)
+
 ## 工具
 
-在 VS Code 中使用插件 [OpenAPI \(Swagger\) Editor](https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi) 辅助书写，它有智能补全、预览（支持 Swagger 和 ReDoc）、内容索引等能力。
+在 VS Code 中使用插件 [OpenAPI \(Swagger\) Editor](https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi) 辅助书写，它有智能补全、实时预览（支持 [Swagger UI](https://github.com/swagger-api/swagger-ui) 和 [ReDoc](https://github.com/Redocly/redoc)）、内容索引等能力。
 
 ## 文件格式
 
