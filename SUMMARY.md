@@ -26,6 +26,7 @@
   * [conventions](code/basic/conventions.md)
   * [Development Environment Setting Up](code/basic/development-environment-setting-up.md)
   * [RESTful API](code/basic/restful-api.md)
+  * [OpenAPI \(Swagger\)](code/basic/openapi-swagger.md)
 * [Editor](code/editor/README.md)
   * [Visual Studio Code](code/editor/visual-studio-code.md)
   * [Vim](code/editor/vim.md)
