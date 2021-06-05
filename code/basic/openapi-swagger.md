@@ -20,7 +20,7 @@
 
 ## operationId 规则
 
- `[<parent-resource>:]<resource>:<action>`
+`[<parent-resource>:]<resource>:<action>`
 
 | Field | Required | Description |
 | :--- | :---: | :--- |
@@ -37,18 +37,19 @@
 
 ## components 复用规则
 
-![components 复用规则](../../.gitbook/assets/b19ecbe3-ea60-45e6-80f1-42021243d8dd.drawio.svg)
+![components &#x590D;&#x7528;&#x89C4;&#x5219;](../../.gitbook/assets/b19ecbe3-ea60-45e6-80f1-42021243d8dd.drawio.svg)
 
-* `parameters` 可基于 `schemas`, 被 `paths` 使用；
-  * path 型 `parameters` 命名格式 `:<name>`
-* `requestBody` 被 `paths` 使用；
-* `responses` 可基于 `schemas`, 被 `paths` 使用；
-* `schemas` 可基于 `schemas`, 被其他 components 使用（注意不被 `paths` 使用）。
+1. `path` 可引用 `parameter`, `requestBody`, `response`；
+2. `parameter` 可引用 `schema`；
+   * 路径参数命名格式 `:<name>`；
+3. `response` 可引用 `schema`；
+4. `schema` 可引用 `schema`。
 
-另外，`parameters` 和 `requestBody` 注重 `description`。
+另外，`parameter` 和 `requestBody` 注重 `description`。
 
 ## 更多
 
 ### 合理借助空行来分隔代码，方便阅读
 
 ![&#x501F;&#x52A9;&#x7A7A;&#x884C;&#x5206;&#x9694;&#x4EE3;&#x7801;](../../.gitbook/assets/eff243b9-4ee5-446e-80db-6a1993428c2d.png)
+
