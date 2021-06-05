@@ -1,5 +1,9 @@
 # OpenAPI \(Swagger\)
 
+## 工具
+
+在 VS Code 中使用插件 [OpenAPI \(Swagger\) Editor](https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi) 辅助书写，它有智能补全、预览（支持 Swagger 和 ReDoc）、内容索引等能力。
+
 ## 文件格式
 
 推荐 `YAML`。辅助字符较少，好写好读。
