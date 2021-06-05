@@ -2,7 +2,7 @@
 
 ## 文档
 
-[Swagger Specification](https://swagger.io/docs/specification/)
+[Swagger Specification](https://swagger.io/docs/specification/)。
 
 ## 工具
 
@@ -37,6 +37,8 @@
 
 ## components 复用规则
 
+![components 复用规则](../../.gitbook/assets/b19ecbe3-ea60-45e6-80f1-42021243d8dd.drawio.svg)
+
 * `parameters` 可基于 `schemas`, 被 `paths` 使用；
   * path 型 `parameters` 命名格式 `:<name>`
 * `requestBody` 被 `paths` 使用；
@@ -50,6 +52,3 @@
 ### 合理借助空行来分隔代码，方便阅读
 
 ![&#x501F;&#x52A9;&#x7A7A;&#x884C;&#x5206;&#x9694;&#x4EE3;&#x7801;](../../.gitbook/assets/eff243b9-4ee5-446e-80db-6a1993428c2d.png)
-
-
-
