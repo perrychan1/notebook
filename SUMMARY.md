@@ -37,7 +37,7 @@
 * [Platform](coding/platform/README.md)
   * [Node.js](coding/platform/node.js/README.md)
     * [best-practice-app](coding/platform/node.js/best-practice-app.md)
-    * [denpendencies](coding/platform/node.js/node-denpendencies.md)
+    * [packages](coding/platform/node.js/node-denpendencies.md)
     * [Node.js Garbage Collection](coding/platform/node.js/nodejs-garbage-collection.md)
     * [Node.js 教程](coding/platform/node.js/node.js-guide.md)
     * [Node.js Best Practice](coding/platform/node.js/node-best-practice.md)
