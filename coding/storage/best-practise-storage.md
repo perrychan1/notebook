@@ -32,7 +32,7 @@ Use env `LANG` to support typing Chineses. It comes from base image [debian](htt
 
 ### Datetime
 
-建议使用 `datetime`\(而非 `timestamp`\)，并固定为 UTC 时间。
+建议使用 `datetime`\(而非 `timestamp`\)，并固定为 UTC 时间。[参考](https://stackoverflow.com/questions/409286/should-i-use-the-datetime-or-timestamp-data-type-in-mysql?noredirect=1&lq=1)。
 
 * 不随时区变化，存储中是一个固定值（字符串）
 * 阅读友好
