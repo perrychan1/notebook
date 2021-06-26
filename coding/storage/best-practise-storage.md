@@ -28,3 +28,15 @@ Use env `LANG` to support typing Chineses. It comes from base image [debian](htt
 
 * 在 MySQL 中使用 UUID: [Mysql 8.0: UUID support](https://mysqlserverteam.com/mysql-8-0-uuid-support/)。
 
+## 数据类型
+
+### Datetime
+
+建议使用 `datetime`\(而非 `timestamp`\)，并固定为 UTC 时间。
+
+* 不随时区变化，存储中是一个固定值（字符串）
+* 阅读友好
+* 容易转换为 Unix 时间戳 `SELECT UNIX_TIMESTAMP(my_datetime)`
+
+
+
